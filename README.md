@@ -17,7 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-git-revision-count');
 ```
 
-## The "revision" task
+## The "revision-count" task
 
 ### Overview
 In your project's Gruntfile, add a section named `revision-count` to the data object passed into `grunt.initConfig()`.
