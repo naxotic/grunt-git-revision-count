@@ -2,23 +2,27 @@
   "name": "grunt-git-revision-count",
   "description": "Get current Git revision count",
   "version": "0.0.1",
-  "homepage": "",
+  "homepage": "https://github.com/naxotic/grunt-git-revision-count",
   "author": {
     "name": "Matthias Permien",
     "email": "matthias.permien@denkwerk.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naxotic/grunt-git-revision-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naxotic/grunt-git-revision-count/issues"
+  },
   "licenses": [
     {
       "type": "MIT",
-      "url": "-"
+      "url": "https://github.com/naxotic/grunt-git-revision-count/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
