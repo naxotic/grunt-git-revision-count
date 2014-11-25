@@ -1,0 +1,33 @@
+{
+  "name": "grunt-git-revision-count",
+  "description": "Get current Git revision count",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": {
+    "name": "Matthias Permien",
+    "email": "matthias.permien@denkwerk.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "-"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
